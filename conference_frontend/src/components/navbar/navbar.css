@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Source Code Pro;
+    align-items: center;
+
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Source Code Pro;
+    align-items: center;
+}
+.login-btn{
+    border-color: #52D4E1;
+    border-width: 4px;
+    width:80px;
+}
+.title{
+    font:bold;
+    color:#000000;
+    font-weight: bold;
+}
