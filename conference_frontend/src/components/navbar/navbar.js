@@ -1,14 +1,20 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "./navbar.css"
 import logo from '../../assets/logo.png'
 import cusat from '../../assets/CUSAT LOGO.png'
 
 export default function navbar() {
     return (
+     
         <div className="nav">
             <div>
+             <Link to='/' style={{textDecoration: 'none'}}>
             <img src={logo}/>
+            </Link>
            </div>
+           
+           <Link to='/' style={{textDecoration: 'none'}}>
            <div className="title">
                <div>
                    <span>ISBIS_Kochi</span>
@@ -17,6 +23,7 @@ export default function navbar() {
                    <span>Conference [2020] </span>
                </div>
            </div>
+           </Link>
 
            <div>
             <span>About </span>
@@ -25,7 +32,10 @@ export default function navbar() {
             <span>Speakers </span>
            </div>
            <div>
-            <span>committees </span>
+               <Link to ="/commities" style={{textDecoration: 'none'}}>
+               <span>committees </span>
+               </Link>
+         
            </div>
            <div>
             <span>Scientific_Programme </span>
