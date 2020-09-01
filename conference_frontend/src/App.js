@@ -5,6 +5,7 @@ import './App.css';
 import Profile from './components/Dashboard/Profile'
 import Help from './components/Dashboard/Help'
 import Home from './Pages/home'
+import Commities from './Pages/commities'
 // ====================
 
 
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/profile" component={Profile} />
           <Route exact path="/help" component={Help} />
           <Route exact path="/" component={Home} />
+          <Route exact path ='/commities' component={Commities}/>
         </Switch>
       </BrowserRouter>
     </div>
