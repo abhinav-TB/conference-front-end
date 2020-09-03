@@ -4,7 +4,7 @@ import rectangle from '../../assets/Rectangle.png'
 import arrow from '../../assets/arrow-timer.png'
 
 export default function Timer(props) {
-    var countDownDate = new Date("Nov 5, 2020 10:37:25").getTime();
+    var countDownDate = new Date("Oct 4, 2020 20:19:25").getTime();
     
     const [days, setdays] = useState(0);
     const [hours, sethours] = useState(0);
